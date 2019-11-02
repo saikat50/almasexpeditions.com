@@ -27,6 +27,12 @@
     src: url('../../fonts/Roboto/Roboto-Medium.ttf');
 }
 @font-face{
+    font-family: 'Roboto-l';
+    src: url('../../fonts/Roboto/Roboto-Light.ttf');
+}
+
+
+@font-face{
     font-family: 'Blacksword';
     src: url('../../fonts/Blacksword.otf');
 }

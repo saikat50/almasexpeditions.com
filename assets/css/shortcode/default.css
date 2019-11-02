@@ -739,7 +739,7 @@ textarea {
 .pb-47 { padding-bottom: 47px }
 .pb-48 { padding-bottom: 48px }
 .pb-49 { padding-bottom: 49px }
-.pb-50 { padding-bottom: 50px }
+.pb-50 { padding-bottom: 50px!important; }
 .pb-51 { padding-bottom: 51px }
 .pb-52 { padding-bottom: 52px }
 .pb-53 { padding-bottom: 53px }

@@ -29,6 +29,7 @@
 .post-img{
     height: 230px;
 }
+
 .post-img img{
     width: 100%;
     height: 100%;
@@ -238,8 +239,126 @@
     max-width: 350px;
 }
 .post-hedline{
-    font-size: 38px;
+    font-size: 35px;
     font-family: 'Roboto-cn-l';
     color: #fff;
     margin-top: 15px;
 }
+.posts p{
+    font-family: 'Roboto-l';
+    font-size: 18px;
+    color: #fff;
+    margin-top: 20px;
+}
+.read-more-btn{
+    font-family: 'Roboto-l';
+    font-size: 18px;
+    color: #FED61F;
+    padding-top: 20px;
+}
+
+.testimonial .testti-head{
+    font-family: 'Roboto-cn-r';
+    font-size: 40px;
+    color: #080808;
+}
+
+.people-text{
+    background: #fff;
+    padding: 15px 15px 15px 30px;
+    position: relative;
+}
+
+.people-text:after {
+    position: absolute;
+    top: 100%;
+    left: 30px;
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #fff;
+}
+
+.people-text p{
+    font-size: 15px;
+    font-family: 'Roboto-r';
+    color: #868686;
+}
+.people-img{
+    width: 90px;
+    height: 90px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 50%;
+}
+.people-img img{
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+}
+.people-details{
+    padding: 0;
+}
+.people-details li{
+    float: left;
+    list-style: none;
+}
+.people-details h5{
+    font-size: 18px;
+    font-family: 'Roboto-b';
+    color: #080808;
+}
+.people-details p{
+    font-size: 15px;
+    font-family: 'Roboto-r';
+    color: #080808;
+}
+.people-details li:last-child{
+    margin-left: 20px;
+    margin-top: 9px;
+}
+
+.footer h4{
+    font-family: 'Roboto-cn-l';
+    font-size: 48px;
+    color: #fff;
+}
+
+.footer p{
+    font-family: 'Roboto-r';
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.footer input{
+    background: #fff;
+    height: 60px;
+    width: 260px;
+    float: left;
+}
+.submit-btn{
+    background: #FED61F;
+    padding: 14px 75px;
+    color: #080808;
+    font-family: 'Roboto-m';
+    font-size: 20px;
+    float: left;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
