@@ -1,0 +1,245 @@
+.bg-color-yellow{
+    background: #FED61F;
+}
+.bg-black{
+    background: #080808;
+}
+.color-balck-h{
+    color: #050505;
+}
+
+
+.header-text-1{
+    font-family: 'Roboto-cn-r';
+    font-size: 55px;
+    color: #1B1448;
+}
+.header-text-2{
+    font-family: 'Roboto-cn-l';
+    font-size: 33px;
+    color: #050505;
+}
+
+.regular-text-1{
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Roboto-r';
+}
+
+.post-img{
+    height: 230px;
+}
+.post-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.max-w-350{
+    max-width: 350px;
+}
+
+
+.logo img{
+    width: 174px;
+}
+.logo{
+    padding: 0;
+}
+.main-menu > li > a{
+    padding-top: 38px;
+    padding-bottom: 0px;
+    text-transform: uppercase;
+}
+.find-tours h2{
+    font-family: 'Roboto-cn-r';
+    font-size: 50px;
+}
+
+.find-tours .nice-select{
+    background: #FED61F!important;
+    border-bottom: 2px solid #030303;
+}
+
+.find-tours .box-select{
+    background: none;
+}
+
+.nice-select .current{
+    font-family: 'Roboto-r';
+    font-size: 20px;
+    color: #050505;
+}
+
+.select .nice-select{
+    line-height: 90px;
+    padding-left: 0px;
+    width: 95%;
+}
+
+.select .nice-select:after{
+    width: 7px;
+    height: 7px;
+    top: 83%;
+    border-bottom: 2px solid #050505;
+    border-right: 2px solid #050505;
+}
+
+.select button{
+    text-transform: uppercase;
+}
+
+.place-card{
+    min-height: 300px;
+    background: #EEEDED;
+}
+.place-card img{
+    height: 250px;
+    width: 100%;
+}
+.img-text-holder{
+    position: relative;
+}
+.img-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(0,0,0,.4);
+    width: 100%;
+    height: 100%;
+}
+.img-text p{
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+
+}
+.all-places{
+    margin-top: 80px;
+}
+.place-detail{
+    margin: 0;
+    margin-top: 13px;
+    padding: 0;
+}
+.place-detail li{
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+}
+.place-detail li p{
+    color: #2E2F8F;
+    font-family: 'Roboto-r';
+}
+.place-detail li .time{
+    font-weight: bold;
+}
+.customize-btn-sm{
+    padding: 3px 33px;
+    font-size: 22px;
+}
+.customize-btn{
+    font-family: 'Roboto-m';
+    color: #080808;
+    text-transform: unset;
+    border-radius: 5px;
+}
+
+.img-container{
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    border: 1px solid #707070;
+    margin: 0 auto;
+    display: block!important;
+    position: relative;
+    overflow: hidden;
+    padding: 15px 15px;
+}
+.img-container .step-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
+    background: rgba(0,0,0,.2);
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+}
+.img-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.step-img p{
+    font-size: 217px;
+    color: #fff;
+    font-family: 'Roboto-cn-l';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.img-container-m{
+    width: 330px;
+    height: 330px;
+}
+.img-container-l{
+    width: 380px;
+    height: 380px;
+}
+
+.step-text{
+    max-width: 230px;
+    margin: 0 auto;
+    display: block;
+    padding-top: 25px;
+}
+
+.step-text h4, .step-text p{
+    font-family: 'Roboto-r';
+    text-align: center;
+}
+.step-text h4{
+    font-size: 24px;
+    font-weight: bold;
+    color: #1B1448;
+}
+.step-text p{
+    font-size: 16px;
+    color: #777777;
+    margin-top: 8px;
+}
+
+
+.post-header{
+    color: #fff;
+    font-size: 45px;
+    font-family: 'Roboto-cn-r';
+    position: relative;
+}
+
+.post-header:after{
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 70px;
+    height: 2px;
+    background: #FED61F;
+    content: '';
+}
+.posts{
+    max-width: 350px;
+}
+.post-hedline{
+    font-size: 38px;
+    font-family: 'Roboto-cn-l';
+    color: #fff;
+    margin-top: 15px;
+}
