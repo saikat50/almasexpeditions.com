@@ -544,7 +544,14 @@ div[data-simplersidebar="mask"]{
 .sticky-header{
     position: relative;
 }
-
+.main-menu li .dropdown{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.main-menu li .dropdown li:hover{
+    background: #FED61F;
+    color: #fff;
+}
 
 
 @media(max-width: 767px){
