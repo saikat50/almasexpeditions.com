@@ -1,7 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="en">
-    
-<!-- Mirrored from preview.hasthemes.com/jobhere-v1/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 01 Nov 2019 15:56:14 GMT -->
+
 <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -47,6 +46,7 @@
 
     <!-- custom /cscss -->
     <link rel="stylesheet" href="assets/css/custom.css">
+       <link rel="stylesheet" href="assets/css/sidebar.css">
         
         <!-- Modernizr JS -->
         <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
@@ -64,7 +64,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6 col-lg-3">
-                            <div class="logo"><a href="index.html"sticky-header"><img src="assets/images/logo/Almas.png" alt="Almas Expedition"></a></div>
+                            <div class="logo"><a href="index.html"><img src="assets/images/logo/Almas.png" alt="Almas Expedition"></a></div>
                         </div>
                         <div class="col-sm-6 col-lg-9">
                             <div class="pull-left header-menu">
@@ -81,11 +81,7 @@
                                         <li><a href="about.html">About US</a></li>
                                         <li><a href="blog.html">Blog</a></li>
                                         <li><a href="contact.html">Contact us</a></li>
-                                        <li>
-                                            <div class="icon right" id="toggle-sidebar">
-                                                <img alt="menu" height="24px" src="assets/menu32@64.png" width="24px">
-                                            </div>
-                                        </li>
+                                
                                     </ul>
                                 </nav>
                                 <div class="login-btn">
@@ -95,6 +91,11 @@
                         </div>
                     </div>
                 </div>
+                
+                <div class="sidebarBtn" id="toggle-sidebar" onclick="sidebarOpen(this)">
+                                                <span>CUSTOMIZE IT</span><i class="fas fa-bars"></i>
+                                            </div>
+                
                 <!-- Mobile Menu Area start -->
                 <div class="mobile-menu-area">
                     <div class="container">
@@ -589,6 +590,61 @@
         </div>    
         <!--End of Main Wrapper Area--> 
 			
+			
+			
+			
+			 <!-- right-sidebar -->
+                                            <div class="main-sidebar main-sidebar-right" id="main-sidebar">
+                                              <div class="main-sidebar-wrapper" id="main-sidebar-wrapper">
+                                                <div class="section">
+                                                    <div class="side-bar-logo"><a href="index.html"><img src="assets/images/logo/Almas.png" alt="Almas Expedition"></a></div>
+                                                    <div class="cross-brn"><button class="btn close-btn" onclick="sidebarClose(this)">X</button></div>
+                                                    
+                                                    <!-- content -->
+                                                    
+                                                    <div class="sidecontent">
+                                                        <h4 >Personalize your travel</h4>
+                                                        <p>Complete the form and receive a Custom Travel quote</p>
+                                                        <form action="">
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control" placeholder="Name">
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <input type="email" class="form-control" placeholder="Email">
+                                                            </div>
+                                                             <div class="form-group">
+                                                                <select class="form-control" name="" id="">
+                                                                    <option value="">Destination</option>
+                                                                    <option value="">Argentina</option>
+                                                                    <option value="">Argentina</option>
+                                                                    <option value="">Argentina</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="clearfix"></div>
+                                                            <div class="form-group" id="budget">
+                                                                <select class="form-control" name="">
+                                                                    <option value="">Budget</option>
+                                                                    <option value="">Argentina</option>
+                                                                    <option value="">Argentina</option>
+                                                                    <option value="">Argentina</option>
+                                                                </select>
+                                                                <div class="clearfix"></div>
+                                                            </div>
+                                                            
+                                                            <div class="form-group" id="msg">
+                                                                <textarea name="" cols="30" rows="5" class="form-control" placeholder="Message"></textarea>
+                                                            </div>
+                                                            <div class="form-control">
+                                                                <button class="bg-color-yellow customize-btn customize-btn-sm btn-block">Sign Up Now</button>
+                                                            </div>
+                                                            
+                                                        </form>
+                                                    </div>
+                                                    
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <!-- right-sidebar -->
 
 
 
@@ -638,7 +694,36 @@
 		========================================================= -->		
         <script src="assets/js/main.js"></script>
         
+        <!-- sidebar open -->
+        <script src="assets/js/jquery-ui.min.js"></script>
+        <script src="assets/js/jquery.simpler-sidebar.min.js"></script>
+         <script>
+   
+          $( "#main-sidebar" ).simplerSidebar( {
+              selectors: {
+                  trigger: "#toggle-sidebar",
+              },
+              animation: {
+                  easing: "easeOutQuint"
+              }
+          } );
+   
+           
+             function sidebarOpen(e){
+                 $("#main-sidebar").removeClass("sideBarOpenClass");
+                 $("#main-sidebar").addClass("anim");
+               
+             }
+             function sidebarClose(e){
+                 
+                 $("#main-sidebar").attr("data-simplersidebar", "closed");
+                 $("#main-sidebar").addClass("sideBarOpenClass");
+                 
+                 
+                 
+             }
+             
+    </script>
+        
     </body>
-
-<!-- Mirrored from preview.hasthemes.com/jobhere-v1/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 01 Nov 2019 15:57:15 GMT -->
 </html>

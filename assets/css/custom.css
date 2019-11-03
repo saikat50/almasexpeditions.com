@@ -1,3 +1,4 @@
+
 .bg-color-yellow{
     background: #FED61F;
 }
@@ -47,7 +48,7 @@
     padding: 0;
 }
 .main-menu > li > a{
-    padding-top: 38px;
+    padding-top: 28px;
     padding-bottom: 0px;
     text-transform: uppercase;
 }
@@ -391,6 +392,159 @@
 .social-media li{
     margin-bottom: 16px;
 }
+
+
+div[data-simplersidebar="mask"]{
+    background: none!important;
+    display: none!important;
+}
+.main-sidebar{
+    background: #fff!important;
+    width: 350px!important;
+    box-shadow: 0px 0px 5px #ddd;
+}
+.side-bar-logo{
+    max-width: 100px;
+    float: left
+}
+.close-btn{
+    font-family: 'Roboto-b';
+    font-size: 24px;
+    padding: 0px 20px;
+    background: #FED61F;
+    color: #080808;
+    border-radius: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.cross-brn{
+    float: right;
+}
+
+.sideBarOpenClass{
+   position: fixed; 
+    top: 0px!important; 
+    bottom: 0px!important; 
+    width: 350px!important; 
+    z-index: 3000!important; 
+    right: -350px!important;
+    transition: all linear 0.2s;
+    
+}
+.anim{
+    transition: all linear 0.1s;
+}
+.sidecontent{
+    padding-top: 80px; 
+    position: relative;
+}
+.sidecontent h4{
+    font-family: 'Roboto-cn-b';
+    font-size: 28px;
+    color: #050505;
+    display: block;
+    text-align: left;
+    position: relative;
+}
+.sidecontent h4:after{
+    position: absolute;
+    bottom: -9px;
+    left: 0;
+    content: '';
+    width: 76px;
+    height: 3px;
+    background: #FED61F;
+}
+.sidecontent p{
+   font-family: 'Roboto-r';
+    font-size: 17px;
+    color: #707070;
+    display: block;
+    text-align: left;
+    margin-top: 25px;
+    max-width: 300px;
+}
+.sidecontent form .form-control{
+    background: #F5F6F8;
+    border: 1px solid #E9EAEC;
+    border-radius: none;
+    padding-top: 0px;
+}
+.sidecontent form .form-control::placeholder {
+  color:#848994;
+    font-family: 'Roboto-r';
+    font-size: 13px;
+  opacity: 1; /* Firefox */
+}
+
+.sidecontent form .form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color:#848994;
+    font-family: 'Roboto-r';
+    font-size: 13px;
+}
+
+.sidecontent form .form-control::-ms-input-placeholder { /* Microsoft Edge */
+  color:#848994;
+    font-family: 'Roboto-r';
+    font-size: 13px;
+}
+.sidecontent form .form-control .disabled-select{
+     color:#848994;
+    font-family: 'Roboto-r';
+    font-size: 13px;
+}
+.sidecontent .current{
+     color:#848994;
+    font-family: 'Roboto-r';
+    font-size: 13px;
+}
+.sidecontent .nice-select{
+    width: 100%;
+}
+.sidecontent .nice-select .option.focus, .nice-select .option.selected.focus {
+    background-color: #f6f6f6;
+    color: #1B1448;
+    font-weight: normal;
+    
+}
+.sidecontent .nice-select .option{
+    width: 100%;
+    display: block;
+}
+.sidecontent #budget{
+    padding-top: 15px;
+}
+.sidecontent .customize-btn{
+    font-size: 20px;
+}
+.sidebarBtn i{
+    color: #1B1448;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+
+.sidebarBtn span{
+    color: #1B1448;
+    font-size: 25px;
+    font-family: 'Roboto-cn-b';
+}
+.sidebarBtn{
+   position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background: #FED61F;
+    padding-top: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+.sticky-header{
+    position: relative;
+}
+
 
 
 @media(max-width: 767px){
