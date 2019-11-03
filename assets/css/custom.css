@@ -8,7 +8,15 @@
 .color-balck-h{
     color: #050505;
 }
-
+.color-yellow{
+    color: #FED61F;
+}
+.color-head-balck{
+    color: #080808;
+}
+.color-gray{
+    color: #707070;
+}
 
 .header-text-1{
     font-family: 'Roboto-cn-r';
@@ -40,7 +48,9 @@
     max-width: 350px;
 }
 
-
+.max-w-450{
+    max-width: 450px;
+}
 .logo img{
     width: 174px;
 }
@@ -468,7 +478,7 @@ div[data-simplersidebar="mask"]{
 .sidecontent form .form-control{
     background: #F5F6F8;
     border: 1px solid #E9EAEC;
-    border-radius: none;
+    border-radius: 0;
     padding-top: 0px;
 }
 .sidecontent form .form-control::placeholder {
@@ -536,7 +546,7 @@ div[data-simplersidebar="mask"]{
     right: 0;
     height: 100%;
     background: #FED61F;
-    padding-top: 35px;
+    padding-top: 23px;
     padding-left: 20px;
     padding-right: 20px;
     cursor: pointer;
@@ -552,6 +562,91 @@ div[data-simplersidebar="mask"]{
     background: #FED61F;
     color: #fff;
 }
+
+
+/************about us page css *********************/
+.bg-black-transparent-layer{
+    position: relative;
+}
+.bg-black-transparent-layer:after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(8,8,8,.4);
+    content: '';
+    z-index: -1;
+}
+.banner-head{
+    font-size: 75px;
+    font-family: 'Roboto-cn-r';
+
+}
+.banner-head-2{
+    font-family: 'Roboto-r';
+    font-size: 30px;
+}
+.about-us-head{
+    font-family: 'Roboto-cn-r';
+    font-size: 40px;
+}
+.about-us-head-2{
+    font-family: 'Roboto-r';
+    font-size: 22px;
+    line-height: 33px;
+}
+.person-name{
+    font-family: 'Roboto-b';
+    font-size: 40px;
+}
+.banner-text-area-all-trips{
+    padding-top: 60px;
+    padding-bottom: 356px;
+}
+
+/*******************destination***********************/
+.next-tour .place-card{
+    min-height: 100%;
+}
+.next-tour .place-card img{
+    height: 100%;
+}
+.next-tour .place-card p{
+    font-family: 'Roboto-b';
+    font-size: 40px;
+    color: #FED61F;
+}
+
+/*************contact-us****************/
+
+.contact-us .container{
+    background: #F3F3F3;
+}
+.contact-us h2{
+    font-family: 'Roboto-b';
+    font-size: 40px;
+    color: #3A3A3A;
+    text-align: center;
+    margin-top: 30px;
+}
+.contact-us h3{
+    font-family: 'Roboto-cn-l';
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+}
+.contact-us h3:after{
+    position: absolute;
+    bottom: -150px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 2px;
+    background: #2D2D2D;
+    content: '';
+}
+
 
 
 @media(max-width: 767px){
@@ -653,6 +748,36 @@ div[data-simplersidebar="mask"]{
         font-size: 30px;
         margin-left: 23px;
     }
+/*    about us*/
+
+    .banner-head {
+        font-size: 42px;
+    }
+    banner-head-2 {
+        font-size: 24px;
+    }
+    .banner-text-area {
+        padding-top: 80px;
+    }
+    .about-us-head {
+        font-size: 32px;
+    }
+    .about-us-head-2 {
+        font-size: 20px;
+        line-height: 33px;
+    }
+    .person-name {
+        font-size: 24px;
+    }
+    .mob-mb-30{
+        margin-bottom: 30px;
+    }
+    .banner-text-area-all-trips {
+        padding-top: 60px;
+        padding-bottom: 86px;
+    }
+
+
 }
 
 

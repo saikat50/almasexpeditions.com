@@ -4,8 +4,9 @@ Template:  Jobhere
 NOTE: This is Slider style file. All Slider related style included in this file.
 
 --------------------------------------*/
-.search-job-area {
-  padding: 280px 0 286px;
+.banner-text-area {
+  padding-top: 350px;
+    padding-bottom: 30px;
 }
 .form-container {
   color: #555454;
