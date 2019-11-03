@@ -203,6 +203,9 @@
     padding-top: 25px;
 }
 
+.dropdown li a, .single-mega-item li a{
+    font-family: 'Roboto-r';
+}
 .step-text h4, .step-text p{
     font-family: 'Roboto-r';
     text-align: center;
@@ -385,8 +388,111 @@
     font-size: 30px;
     margin-left: 45px;
 }
+.social-media li{
+    margin-bottom: 16px;
+}
 
 
+@media(max-width: 767px){
+    .find-tours h2 {
+        font-size: 26px;
+    }
+    .select .nice-select {
+        line-height: 60px;
+    }
+    .nice-select .current {
+        font-size: 16px;
+    }
+    .select .nice-select:after {
+        top: 79%;
+    }
+    .header-text-1 {
+        font-size: 24px;
+    }
+    .place-card{
+        max-width: 350px;
+        display: block;
+        margin: 0 auto;
+    }
+    .img-text p {
+        width: 100%;
+    }
+    .header-text-2 {
+        font-size: 22px;
+        margin-top: 10px;
+    }
+    .all-places {
+        margin-top: 30px;
+    }
+    .customize-btn-sm {
+        padding: 3px 14px;
+        font-size: 17px;
+    }
+    .steps{
+        margin-top: 30px;
+    }
+    .expeditions{
+        padding-top: 0!important;
+    }
+    .img-container{
+        width: 220px!important;
+        height: 220px!important;
+    }
+    .step-img p {
+        font-size: 120px;
+    }
+    .footer h4 {
+        font-size: 30px;
+    }
+    .footer p {
+        font-size: 12px;
+        margin-top: 0px;
+    }
+    .footer input {
+        height: 37px;
+    }
+    .submit-btn {
+        padding: 5px 25px;
+        color: #080808;
+        font-size: 14px;
+        float: left;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .mob-mt-20{
+        margin-top: 20px;
+    }
+    .post-hedline {
+        font-size: 24px;
+    }
+    .posts p {
+        font-size: 16px;
+    }
+    .read-more-btn {
+        font-size: 16px;
+    }
+    .posts p {
+        margin-top: 9px;
+    }
+    .testimonial .testti-head {
+        font-size: 28px;
+    }
+    .f-meu-head{
+        font-size: 16px!important;
+        margin-top: 15px!important;
+    }
+    .footer-text span{
+        font-size: 13px!important;
+    }
+    .footer-text img{
+        display: block;
+        margin: 0 auto;
+    }
+    .footer-menu li a i {
+        font-size: 30px;
+        margin-left: 23px;
+    }
+}
 
 
 

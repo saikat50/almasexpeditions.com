@@ -104,20 +104,9 @@ nav#primary-menu {display: inline-block; float: left;}
   text-transform: uppercase;
 }
 .main-menu > li:hover > a{
-    color:#26ae61;
+    color:#FED61F;
 }
-.main-menu >li> a::after {
-  background: #26ae61 none repeat scroll 0 0;
-  bottom: 0;
-  content: "";
-  height:0px;
-  left: 50%;
-  position: absolute;
-  transform: translateX(-50%);
-  width: 5px;
-  transition: all 0.3s ease-in-out;
-  z-index: 3;
-}
+
 .main-menu >li:hover> a::after{
     height: 15px;
 } 
