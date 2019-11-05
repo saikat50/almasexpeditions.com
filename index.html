@@ -95,59 +95,61 @@
                     </div>
                 </div>
                 
-                <button class="sidebarBtn sidebar-desk" id="toggle-sidebar" onclick="sidebarOpen(this)">
-                                                <span>CUSTOMIZE IT</span><i class="fas fa-bars"></i>
-                                            </button>
+                <button class="sidebarBtn sidebar-desk toggle-sidebar" onclick="sidebarOpen(this)">
+                    <span>CUSTOMIZE IT</span><i class="fas fa-bars"></i>
+                </button>
                 
                 <!-- Mobile Menu Area start -->
                 <div class="mobile-menu-area">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12 col-md-12 col-sm-12">
-                                <div class="mobile-menu">
-                                    <button class="sidebarBtn sidebar-mob" id="toggle-sidebar" onclick="sidebarOpen(this)">
-                                        <span>CUSTOMIZE IT</span><i class="fas fa-bars"></i>
-                                    </button>
-                                    <nav id="dropdown">
-                                        <ul>
-                                            <li><a href="index.html">HOME</a>
-                                                <ul>
-													<li><a href="index.html">Home Version One</a></li>
-                                                    <li><a href="index-2.html">Home Version Two</a></li>
-                                                    <li><a href="index-3.html">Home Box Layout</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="job-board.html">Job</a>
-                                                <ul class="sub-menu">
-													<li><a href="single-job-post.html">Single Job</a></li>
-													<li><a href="job-details.html">Job Details</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="about.html">About</a></li>
-                                            <li><a href="#">Page</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="job-board.html">Job Board</a></li>
-                                                    <li><a href="single-job-post.html">Single Job</a></li>
-                                                    <li><a href="job-details.html">Job Details</a></li>
-                                                    <li><a href="candidates.html">Candidates</a></li>
-                                                    <li><a href="resume.html">Resume</a></li>
-                                                    <li><a href="blog.html">Blog Page</a></li>
-                                                    <li><a href="blog-details.html">Blog Details</a></li>
-                                                    <li><a href="contact.html">Contact</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="blog.html">Blog</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="blog-details.html">Blog Details</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                        </ul>
-                                    </nav>
+                    <div class="right-btn">
+                        <button class="mob-cus-btn btn"><span>CUSTOMIZE IT</span><i class="fas fa-bars"></i></button>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <div class="mobile-menu">
+                                        <nav id="dropdown">
+                                            <ul>
+                                                <li><a href="index.html">HOME</a>
+                                                    <ul>
+                                                        <li><a href="index.html">Home Version One</a></li>
+                                                        <li><a href="index-2.html">Home Version Two</a></li>
+                                                        <li><a href="index-3.html">Home Box Layout</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="job-board.html">Job</a>
+                                                    <ul class="sub-menu">
+                                                        <li><a href="single-job-post.html">Single Job</a></li>
+                                                        <li><a href="job-details.html">Job Details</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="about.html">About</a></li>
+                                                <li><a href="#">Page</a>
+                                                    <ul class="sub-menu">
+                                                        <li><a href="job-board.html">Job Board</a></li>
+                                                        <li><a href="single-job-post.html">Single Job</a></li>
+                                                        <li><a href="job-details.html">Job Details</a></li>
+                                                        <li><a href="candidates.html">Candidates</a></li>
+                                                        <li><a href="resume.html">Resume</a></li>
+                                                        <li><a href="blog.html">Blog Page</a></li>
+                                                        <li><a href="blog-details.html">Blog Details</a></li>
+                                                        <li><a href="contact.html">Contact</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="blog.html">Blog</a>
+                                                    <ul class="sub-menu">
+                                                        <li><a href="blog-details.html">Blog Details</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="contact.html">Contact</a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+
                 </div>
                 <!-- Mobile Menu Area end -->  
             </header>
@@ -383,7 +385,7 @@
                 <div class="container">
                         <h2 class="text-center header-text-1">CUSTOMIZE YOUR EXPEDITION IN 3 EASY STEPS</h2>
                         <h3 class="text-center header-text-2 mt-10">Travel where and when you want</h3>
-                        <p class="text-center mt-20"><button class="bg-color-yellow customize-btn customize-btn-sm" onclick="sidebarOpen(this)">Customize it now</button></p>
+                        <p class="text-center mt-20"><button class="bg-color-yellow customize-btn customize-btn-sm toggle-sidebar">Customize it now</button></p>
 
                         <div class="steps">
                             <div class="row">
@@ -609,7 +611,7 @@
                                                     <!-- content -->
                                                     
                                                     <div class="sidecontent">
-                                                        <h4 >Personalize your travel</h4>
+                                                        <h4>Personalize your travel</h4>
                                                         <p>Complete the form and receive a Custom Travel quote</p>
                                                         <form action="">
                                                             <div class="form-group">
@@ -705,30 +707,20 @@
         <script src="assets/js/jquery.simpler-sidebar.min.js"></script>
          <script>
    
-          $( "#main-sidebar" ).simplerSidebar( {
-              selectors: {
-                  trigger: "#toggle-sidebar",
-              },
-              animation: {
-                  easing: "easeOutQuint"
-              }
-          } );
-   
+          $(document).ready(function () {
+              $( "#main-sidebar" ).simplerSidebar( {
+                  selectors: {
+                      trigger: ".toggle-sidebar",
+
+                  },
+                  animation: {
+                      easing: "easeOutQuint"
+                  }
+              } );
+          });
+
            
-             function sidebarOpen(e){
-                 $("#main-sidebar").removeClass("sideBarOpenClass");
-                 $("#main-sidebar").addClass("anim");
-               
-             }
-             function sidebarClose(e){
-                 
-                 $("#main-sidebar").attr("data-simplersidebar", "closed");
-                 $("#main-sidebar").addClass("sideBarOpenClass");
-                 
-                 
-                 
-             }
-             
+
     </script>
         
     </body>

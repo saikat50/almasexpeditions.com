@@ -1,0 +1,881 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Almas Expeditions</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+         <link rel="stylesheet" href="assets/fonts/css/all.css">
+        <!-- Google Fonts
+        ============================================ -->		
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet"> 
+        
+        <!-- All css files are included here
+        ============================================ -->    
+        <!-- Bootstrap CSS
+        ============================================ -->		
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        
+        <!-- This core.css file contents all plugins css file
+        ============================================ -->
+        <!-- Nice select css
+        ============================================ -->
+        <link rel="stylesheet" href="assets/css/nice-select.css">
+        <!-- This core.css file contents all plugins css file
+        ============================================ -->
+        <link rel="stylesheet" href="assets/css/core.css">
+        
+        <!-- Theme shortcodes/elements style
+        ============================================ -->  
+        <link rel="stylesheet" href="assets/css/shortcode/shortcodes.css">
+        
+        <!--  Theme main style
+        ============================================ -->  
+        <link rel="stylesheet" href="assets/style.css">
+        
+		<!-- Color CSS
+		============================================ -->
+        <link rel="stylesheet" href="assets/css/plugins/color.css">
+        
+        <!-- Responsive CSS
+        ============================================ -->
+        <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <!-- custom /cscss -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+       <link rel="stylesheet" href="assets/css/sidebar.css">
+        
+        <!-- Modernizr JS -->
+        <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    <!-- slider -->
+    <script src="assets/js/jssor.slider-28.0.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        window.jssor_1_slider_init = function() {
+
+            var jssor_1_options = {
+                $AutoPlay: 1,
+                $BulletNavigatorOptions: {
+                    $Class: $JssorBulletNavigator$
+                }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*#region responsive code begin*/
+
+            var MAX_WIDTH = 770;
+
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+
+            ScaleSlider();
+
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        };
+    </script>
+    <!-- Sticky js -->
+
+    <style>
+        /*jssor slider loading skin double-tail-spin css*/
+        .jssorl-004-double-tail-spin img {
+            animation-name: jssorl-004-double-tail-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-004-double-tail-spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        /*jssor slider bullet skin 031 css*/
+        .jssorb031 {position:absolute;}
+        .jssorb031 .i {position:absolute;cursor:pointer;}
+        .jssorb031 .i .b {fill:#000;fill-opacity:0.5;stroke:#fff;stroke-width:1200;stroke-miterlimit:10;stroke-opacity:0.3;}
+        .jssorb031 .i:hover .b {fill:#fff;fill-opacity:.7;stroke:#000;stroke-opacity:.5;}
+        .jssorb031 .iav .b {fill:#fff;stroke:#000;fill-opacity:1;}
+        .jssorb031 .i.idn {opacity:.3;}
+    </style>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->  
+
+        <!--Main Wrapper Start-->
+        <div class="as-mainwrapper">
+            <!--Header Area Start-->
+            <header id="sticky-header" class="header-area">
+                <!-- Header Top Start -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="logo"><a href="index.html"><img src="assets/images/logo/Almas.png" alt="Almas Expedition"></a></div>
+                        </div>
+                        <div class="col-sm-6 col-lg-9">
+                            <div class="pull-left header-menu">
+                                <nav id="primary-menu">
+                                    <ul class="main-menu text-right">
+                                        <li><a href="index.html">All trips</a></li>
+                                        <li><a href="job-board.html">Travel styles <i class="fal fa-chevron-down"></i></a>
+                                            <ul class="dropdown">
+                                                <li><a href="single-job-post.html">Family fun</a></li>
+                                                <li><a href="job-details.html">Adventure</a></li>
+                                                <li><a href="job-details.html">Cultural</a></li>
+                                                <li><a href="job-details.html">Holiday & Seasonal</a></li>
+                                                <li><a href="job-details.html">Book of Mormon Tours</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="">Destinations</a></li>
+                                        <li><a href="about.html">About US</a></li>
+                                        <li><a href="blog.html">Blog</a></li>
+                                        <li><a href="contact.html">Contact us</a></li>
+                                
+                                    </ul>
+                                </nav>
+                                <div class="login-btn">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="sidebarBtn" id="toggle-sidebar" onclick="sidebarOpen(this)">
+                    <span>CUSTOMIZE IT</span><i class="fas fa-bars"></i>
+                </button>
+                
+                <!-- Mobile Menu Area start -->
+                <div class="mobile-menu-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <div class="mobile-menu">
+                                    <nav id="dropdown">
+                                        <ul>
+                                            <li><a href="index.html">HOME</a>
+                                                <ul>
+													<li><a href="index.html">Home Version One</a></li>
+                                                    <li><a href="index-2.html">Home Version Two</a></li>
+                                                    <li><a href="index-3.html">Home Box Layout</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="job-board.html">Job</a>
+                                                <ul class="sub-menu">
+													<li><a href="single-job-post.html">Single Job</a></li>
+													<li><a href="job-details.html">Job Details</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="about.html">About</a></li>
+                                            <li><a href="#">Page</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="job-board.html">Job Board</a></li>
+                                                    <li><a href="single-job-post.html">Single Job</a></li>
+                                                    <li><a href="job-details.html">Job Details</a></li>
+                                                    <li><a href="candidates.html">Candidates</a></li>
+                                                    <li><a href="resume.html">Resume</a></li>
+                                                    <li><a href="blog.html">Blog Page</a></li>
+                                                    <li><a href="blog-details.html">Blog Details</a></li>
+                                                    <li><a href="contact.html">Contact</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="blog.html">Blog</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="blog-details.html">Blog Details</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Mobile Menu Area end -->  
+            </header>
+            <!-- End of Header Area -->
+            <!-- Search Form Start -->
+            <div class="banner-text-area-single-page bg-5 bg-black-transparent-layer" style="background-image: url(assets/images/guatemala-4532780_1920.jpg);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-10 col-lg-12">
+                            <div class="content">
+                                <h2 class="banner-head color-yellow">GUATEMALAN EXPERIENCE – 8 DAYS</h2>
+                                <h3 class="banner-head-2 text-white mt-15">Experience Guatemala and enjoy the top destinations for international visitors!</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Search Form End -->
+
+
+            <section class="tour-details p-5 pl-0 pr-0">
+                <div class="tour-menu">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 col-lg-12">
+                                <ul class="tour-menu">
+                                    <li><a href="">Overview</a></li>
+                                    <li><a href="">Photos</a></li>
+                                    <li><a href="">Itinerary</a></li>
+                                    <li><a href="">Map</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tour-content mt-28">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="tour-features">
+                                    <ul class="features">
+                                        <li><i class="far fa-clock"></i> <span>8 Days 7 Nights</span></li>
+                                        <li><i class="far fa-calendar-alt"></i> <span>Availiability</span></li>
+                                        <li><i class="far fa-plane-departure"></i> <span>Guatemala City, (GUA)</span></li>
+                                        <li><i class="fas fa-plane-arrival"></i> <span>Guatemala City, (GUA)</span></li>
+                                        <li><i class="fas fa-user"></i> <span>Min Age: 8+</span></li>
+                                        <li><i class="fas fa-users"></i> <span>Max People: 22</span></li>
+
+                                    </ul>
+                                    <div class="clearfix"></div>
+                                </div>
+
+                                <div class="tour-overview">
+                                    <h3 class="tour-head color-head-balck mt-30">Tour Overview</h3>
+                                    <p class="tour-regular color-gray mt-15">Experience Guatemala and enjoy the top destinations for international visitors! Enjoy 2 nights at Lake Atitlan and visit the surrounding villages of Santiago, San Juan, and San Pedro. Enjoy a horseback riding tour up to the viewpoint a get a tremendous view of the volcanoes and of the entire crater.
+                                        <br> <br>
+
+                                        Stay in Antigua for 2 nights and enjoy the beautiful cobblestone streets and colonial architecture. Last but not least, take a short 45min flight and enjoy a day trip to the north of Guatemala and visit the world famous Mayan capital of Tikal, lost deep in the tropical jungle. </p>
+                                </div>
+
+                                <div class="tour-overview-details mt-30">
+                                    <ul class="tour-overview-topic">
+                                        <!--******************* LIST START *******************-->
+                                        <li>
+                                            <ul class="tour-topic">
+                                                <!-- Heading Left-->
+                                                <li class="tour-topic-li"><span class="topic-head">Shared Group Pricing</span><span class="sub-topic-head">Join our scheduled dates for a discounted price </span></li>
+                                                <!-- Details Right -->
+                                                <li class="tour-topic-li">
+                                                    <ul class="features">
+                                                        <li class="features-li">
+                                                            <!-- for bold text with check -->
+                                                            <ul class="features-details">
+                                                                <li class="features-details-li i-list"><i class="fas fa-check"></i></li>
+                                                                <li class="features-details-li"><span class="bold-text">$ 1,899.00 US per person*</span> <span class="normal-text">*Based on double occupancy</span></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="features-li">
+                                                            <!-- or normal text with check -->
+                                                            <ul class="features-details">
+                                                                <li class="features-details-li i-list"><i class="fas fa-check"></i></li>
+                                                                <li class="features-details-li"><span class="normal-text">$ 1,899.00 US per person*</span></li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+
+                                            </ul>
+                                        </li>
+                                        <!--******************* LIST ENDED *******************-->
+                                         <!--******************* LIST START *******************-->
+                                        <li>
+                                            <ul class="tour-topic">
+                                                <!-- Heading Left-->
+                                                <li class="tour-topic-li"><span class="topic-head">Private Group Pricing</span><span class="sub-topic-head">Travel with your own group </span></li>
+                                                <!-- Details Right -->
+                                                <li class="tour-topic-li">
+                                                    <ul class="features">
+                                                        <li class="features-li">
+                                                            <!-- for bold text with check -->
+                                                            <ul class="features-details">
+                                                                <li class="features-details-li i-list"><i class="fas fa-check"></i></li>
+                                                                <li class="features-details-li"><span class="bold-text">2 - 3 People</span> <span class="normal-text">$2,250 US per person (double or triple occupancy based)</span></li>
+                                                            </ul>
+                                                        </li>
+                                                      <li class="features-li">
+                                                            <!-- for bold text with check -->
+                                                            <ul class="features-details">
+                                                                <li class="features-details-li i-list"><i class="fas fa-check"></i></li>
+                                                                <li class="features-details-li"><span class="bold-text">4 - 7 People</span> <span class="normal-text">$2,050 USD per person (double or triple occupancy based)</span></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="features-li">
+                                                            <!-- for bold text with check -->
+                                                            <ul class="features-details">
+                                                                <li class="features-details-li i-list"><i class="fas fa-check"></i></li>
+                                                                <li class="features-details-li"><span class="bold-text">8 - 11 People</span> <span class="normal-text">$2,050 USD per person (double or triple occupancy based)</span></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="features-li">
+                                                            <!-- for bold text with check -->
+                                                            <ul class="features-details">
+                                                                <li class="features-details-li i-list"><i class="fas fa-check"></i></li>
+                                                                <li class="features-details-li"><span class="bold-text">12 - 17 People</span> <span class="normal-text">$2,050 USD per person (double or triple occupancy based)</span></li>
+                                                            </ul>
+                                                        </li>
+
+                                                    </ul>
+                                                </li>
+
+                                            </ul>
+                                        </li>
+                                        <!--******************* LIST ENDED *******************-->
+                                        <!--******************* LIST START *******************-->
+                                        <li>
+                                            <ul class="tour-topic">
+                                                <!-- Heading Left-->
+                                                <li class="tour-topic-li"><span class="topic-head">Price Includes</span><span class="sub-topic-head">Travel with your own group </span></li>
+                                                <!-- Details Right -->
+                                                <li class="tour-topic-li">
+                                                    <ul class="features">
+                                                        <li class="features-li">
+                                                            <!-- for bold text with check -->
+                                                            <ul class="features-details">
+                                                                <li class="features-details-li i-list"><i class="fas fa-check"></i></li>
+                                                                <li class="features-details-li"><span class="bold-text">Professional Guide and Interpreter</span></li>
+                                                            </ul>
+                                                        </li>
+                                                      <li class="features-li">
+                                                            <!-- for bold text with check -->
+                                                            <ul class="features-details">
+                                                                <li class="features-details-li i-list"><i class="fas fa-check"></i></li>
+                                                                <li class="features-details-li"><span class="bold-text">Meals Specified on the itineray</span> </li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="features-li">
+                                                            <!-- for bold text with check -->
+                                                            <ul class="features-details">
+                                                                <li class="features-details-li i-list"><i class="fas fa-check"></i></li>
+                                                                <li class="features-details-li"><span class="bold-text">7 Nights Hotel Accommodation</span> </li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="features-li">
+                                                            <!-- for bold text with check -->
+                                                            <ul class="features-details">
+                                                                <li class="features-details-li i-list"><i class="fas fa-check"></i></li>
+                                                                <li class="features-details-li"><span class="bold-text">Entrance Fees to all the sites</span> </li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="features-li">
+                                                            <!-- for bold text with check -->
+                                                            <ul class="features-details">
+                                                                <li class="features-details-li i-list"><i class="fas fa-check"></i></li>
+                                                                <li class="features-details-li"><span class="bold-text">All transportation in destination location</span><span class="normal-text">Deluxe Air Conditioned Van, Tuk-Tuk taxis, and Motor Boat</span> </li>
+                                                            </ul>
+                                                        </li>
+
+                                                    </ul>
+                                                </li>
+
+                                            </ul>
+                                        </li>
+                                        <!--******************* LIST ENDED *******************-->
+                                        <!--******************* LIST START *******************-->
+                                        <li>
+                                            <ul class="tour-topic">
+                                                <!-- Heading Left-->
+                                                <li class="tour-topic-li"><span class="topic-head">Price Includes</span></li>
+                                                <!-- Details Right -->
+                                                <li class="tour-topic-li">
+                                                    <ul class="features">
+                                                        <li class="features-li">
+                                                            <!-- for bold text with check -->
+                                                            <ul class="features-details">
+                                                                <li class="features-details-li i-list"><i class="fas fa-times"></i></li>
+                                                                <li class="features-details-li"><span class="bold-text">International Flights</span></li>
+                                                            </ul>
+                                                        </li>
+                                                      <li class="features-li">
+                                                            <!-- for bold text with check -->
+                                                            <ul class="features-details">
+                                                                <li class="features-details-li i-list"><i class="fas fa-times"></i></li>
+                                                                <li class="features-details-li"><span class="bold-text">Inbound and Outbound</span> </li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="features-li">
+                                                            <!-- for bold text with check -->
+                                                            <ul class="features-details">
+                                                                <li class="features-details-li i-list"><i class="fas fa-times"></i></li>
+                                                                <li class="features-details-li"><span class="bold-text">Gratuities for the Guide or Driver</span> </li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="features-li">
+                                                            <!-- for bold text with check -->
+                                                            <ul class="features-details">
+                                                                <li class="features-details-li i-list"><i class="fas fa-times"></i></li>
+                                                                <li class="features-details-li"><span class="bold-text">Any Private Expenses</span> </li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="features-li">
+                                                            <!-- for bold text with check -->
+                                                            <ul class="features-details">
+                                                                <li class="features-details-li i-list"><i class="fas fa-times"></i></li>
+                                                                <li class="features-details-li"><span class="bold-text">Room Service Fees</span></li>
+                                                            </ul>
+                                                        </li>
+
+                                                    </ul>
+                                                </li>
+
+                                            </ul>
+                                        </li>
+                                        <!--******************* LIST ENDED *******************-->
+
+                                    </ul>
+                                </div>
+
+                                <div class="clearfix"></div>
+
+                                <!--######################## what to expect ###########################-->
+                                <div class="expectations">
+                                    <ul>
+                                        <li><i class="far fa-thumbs-up"></i></li>
+                                        <li><h4 class="menu-des-head">What to Expect</h4>
+                                            <ul class="features-details">
+                                                <li class="features-details-li i-list"><i class="fas fa-check"></i></li>
+                                                <li class="features-details-li"><span class="normal-text color-gray">Enjoy a day trip to the north of Guatemala an visit Tikal Mayan ruins</span> </li>
+                                            </ul>
+                                             <ul class="features-details">
+                                                <li class="features-details-li i-list"><i class="fas fa-check"></i></li>
+                                                <li class="features-details-li"><span class="normal-text color-gray">Enjoy a gentle cruise on Lake Atitlan</span> </li>
+                                            </ul>
+                                            <ul class="features-details">
+                                                <li class="features-details-li i-list"><i class="fas fa-check"></i></li>
+                                                <li class="features-details-li"><span class="normal-text color-gray">Explore 3 villages along Lake Atitlan and learn the local trades</span> </li>
+                                            </ul>
+                                            <ul class="features-details">
+                                                <li class="features-details-li i-list"><i class="fas fa-check"></i></li>
+                                                <li class="features-details-li"><span class="normal-text color-gray">Explore town at Panajachel</span> </li>
+                                            </ul>
+                                            <ul class="features-details">
+                                                <li class="features-details-li i-list"><i class="fas fa-check"></i></li>
+                                                <li class="features-details-li"><span class="normal-text color-gray">Visit 2 Ancient Mayan Settlements: Iximche and Kaminaljuyu</span> </li>
+                                            </ul>
+                                            <ul class="features-details">
+                                                <li class="features-details-li i-list"><i class="fas fa-check"></i></li>
+                                                <li class="features-details-li"><span class="normal-text color-gray">Engage on a REAL cultural exchange and interact with the locals</span> </li>
+                                            </ul>
+                                            <ul class="features-details">
+                                                <li class="features-details-li i-list"><i class="fas fa-check"></i></li>
+                                                <li class="features-details-li"><span class="normal-text color-gray">Learn about the history of Guatemala from an expert</span> </li>
+                                            </ul>
+                                            <ul class="features-details">
+                                                <li class="features-details-li i-list"><i class="fas fa-check"></i></li>
+                                                <li class="features-details-li"><span class="normal-text color-gray">Learn about the history of Guatemala from an expert</span> </li>
+                                            </ul>
+
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="clearfix"></div>
+
+                                <!--######################## Itinerary ###########################-->
+                                <div class="expectations itinerary">
+                                    <ul>
+                                        <li><i class="far fa-bus"></i></li>
+                                        <li><h4 class="menu-des-head">Itinerary</h4>
+                                            <div class="accordion mt-20" id="accordionExample">
+                                                <div class="card">
+                                                    <div class="card-header" id="headingOne">
+                                                        <h2 class="mb-0">
+                                                            <a data-toggle="collapse" data-target="#collapseOne"><i class="fa fa-plus"></i>Day 1 <span>Arrival day - Guatemalia</span></a>
+                                                        </h2>
+                                                    </div>
+                                                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                                        <div class="card-body">
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam amet aspernatur at beatae debitis dolore dolorem eligendi exercitationem, expedita in incidunt iste magni necessitatibus numquam placeat quas sed veniam!</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="card-header" id="headingTwo">
+                                                        <h2 class="mb-0">
+                                                            <a data-toggle="collapse" data-target="#collapseTwo"><i class="fa fa-plus"></i> Day 2 <span>Arrival day - Guatemalia</span></a>
+                                                        </h2>
+                                                    </div>
+                                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                                        <div class="card-body">
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam at aut blanditiis cupiditate, deserunt dolor dolorum facilis ipsa itaque libero minus, neque nulla repellat repellendus, velit veniam vero. Assumenda, itaque.</a></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="card-header" id="headingThree">
+                                                        <h2 class="mb-0">
+                                                            <a data-toggle="collapse" data-target="#collapseThree"><i class="fa fa-plus"></i> Day 3 <span>Arrival day - Guatemalia</span></a>
+                                                        </h2>
+                                                    </div>
+                                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                                        <div class="card-body">
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias commodi consectetur consequatur debitis delectus ex harum necessitatibus, quaerat quidem! Aspernatur cupiditate est et eveniet ex incidunt modi quis veniam?</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                 <div class="card">
+                                                    <div class="card-header" id="headingFour">
+                                                        <h2 class="mb-0">
+                                                            <a data-toggle="collapse" data-target="#collapseFour"><i class="fa fa-plus"></i> Day 4 <span>Arrival day - Guatemalia</span></a>
+                                                        </h2>
+                                                    </div>
+                                                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                                                        <div class="card-body">
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias commodi consectetur consequatur debitis delectus ex harum necessitatibus, quaerat quidem! Aspernatur cupiditate est et eveniet ex incidunt modi quis veniam?</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="card-header" id="headingFive">
+                                                        <h2 class="mb-0">
+                                                            <a data-toggle="collapse" data-target="#collapseFive"><i class="fa fa-plus"></i> Day 5 <span>Arrival day - Guatemalia</span></a>
+                                                        </h2>
+                                                    </div>
+                                                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                                                        <div class="card-body">
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias commodi consectetur consequatur debitis delectus ex harum necessitatibus, quaerat quidem! Aspernatur cupiditate est et eveniet ex incidunt modi quis veniam?</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="card-header" id="headingSix">
+                                                        <h2 class="mb-0">
+                                                            <a data-toggle="collapse" data-target="#collapseSix"><i class="fa fa-plus"></i> Day 6 <span>Learn about the history of Guatemala from an expert</span></a>
+                                                        </h2>
+                                                    </div>
+                                                    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                                                        <div class="card-body">
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias commodi consectetur consequatur debitis delectus ex harum necessitatibus, quaerat quidem! Aspernatur cupiditate est et eveniet ex incidunt modi quis veniam?</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="card-header" id="headingSeven">
+                                                        <h2 class="mb-0">
+                                                            <a data-toggle="collapse" data-target="#collapseSeven"><i class="fa fa-plus"></i> Day 7 <span>Engage on a REAL cultural exchange and interact with the locals</span></a>
+                                                        </h2>
+                                                    </div>
+                                                    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+                                                        <div class="card-body">
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias commodi consectetur consequatur debitis delectus ex harum necessitatibus, quaerat quidem! Aspernatur cupiditate est et eveniet ex incidunt modi quis veniam?</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </li>
+                                    </ul>
+                                </div>
+
+
+                                <div class="clearfix"></div>
+                                <!--######################## Photos ###########################-->
+                                <div class="expectations Photos mt-30">
+                                    <ul>
+                                        <li><i class="far fa-images"></i></li>
+                                        <li><h4 class="menu-des-head">Photos</h4></li>
+                                    </ul>
+
+                                    <div class="clearfix"></div>
+                                    <!-- photo slider -->
+                                    <div class="slider-photo pt-30">
+                                        <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:770px;height:490px;overflow:hidden;visibility:hidden;">
+                                            <!-- Loading Screen -->
+                                            <div data-u="loading" class="jssorl-004-double-tail-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+                                                <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="assets/images/slider/double-tail-spin.svg" />
+                                            </div>
+                                            <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:770px;height:490px;overflow:hidden;">
+                                                <div>
+                                                    <img data-u="image" src="assets/images/slider/px-1612351-village-travel-original.jpg" />
+                                                </div>
+                                                <div>
+                                                    <img data-u="image" src="assets/images/slider/px-colorful-colourful-forest-33109-blur.jpg" />
+                                                </div>
+                                                <div>
+                                                    <img data-u="image" src="assets/images/slider/px-clouds-conifers-fir-trees-158672-origin.jpg" />
+                                                </div><a data-u="any" href="https://www.jssor.com" style="display:none">bootstrap slider</a>
+                                            </div>
+                                            <!-- Bullet Navigator -->
+                                            <div data-u="navigator" class="jssorb031" style="position:absolute;bottom:12px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+                                                <div data-u="prototype" class="i" style="width:16px;height:16px;">
+                                                    <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                                                        <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <script type="text/javascript">jssor_1_slider_init();
+                                    </script>
+                                    <!-- #endregion photo Slider End -->
+                                </div>
+
+
+                                <div class="row"></div>
+                                <!--######################## MAP ###########################-->
+                                <div class="expectations Photos mt-40">
+                                    <ul>
+                                        <li><i class="far fa-map"></i></li>
+                                        <li><h4 class="menu-des-head">Map</h4></li>
+                                    </ul>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="single-page-map mt-30">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.5524931672107!2d-86.97300738482132!3d20.4835654862962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e574535ed580b%3A0x3755b1aa0c2c9783!2sBeach%20Bum%20Cozumel!5e0!3m2!1sen!2sbd!4v1572843465354!5m2!1sen!2sbd" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+            <div class="footer p-5 bg-black pl-0 pr-0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-lg-6">
+                            <h4>Newsletter</h4>
+                            <p>Subscribe to receive exclusive deals and offers!</p>
+                            <form action="">
+                                <input type="text" class="form-control" placeholder="Your Email"> <button type="submit" class="btn submit-btn">Sign Up Now</button>
+                            </form>
+                        </div>
+                        <div class="col-6 col-md-2 mob-mt-20">
+                            <p class="f-meu-head">Menu</p>
+                            <ul class="footer-menu">
+                                <li><a href="">Home</a></li>
+                                <li><a href="">All Trips</a></li>
+                                <li><a href="">Destinations</a></li>
+                                <li><a href="">About us</a></li>
+                                <li><a href="">Blog</a></li>
+                                <li><a href="">Contact us</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-md-2 mob-mt-20">
+                            <p class="f-meu-head">Social Media</p>
+                            <ul class="footer-menu social-media">
+                                <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+                                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                                <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2">
+                            <p class="f-meu-head">Contact Info</p>
+                            <ul class="footer-menu">
+                                <li> <span>Address</span>
+                                    <p class="pt-0 pb-0">Carretera Costera Sur Km 3.8 Store # 5 <br>
+                                        Cozumel, Quintana Roo <br>
+                                        Mexico</p>
+                                </li>
+                                <li> <span>Email</span>
+                                    <p class="pt-0 pb-0">info@almasexpeditions.com</p>
+                                </li>
+                                <li> <span>Phone</span>
+                                    <p class="pt-0 pb-0"> 1.801.994.6501</p>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Start of Footer area -->
+            <div class="copyright-area text-center ptb-20">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="footer-text">
+                                    <span class="text-white block" style="text-align: left;color: #B4A6A6!important;font-size: 20px;font-family: 'Roboto-r"> Copyright © 2019 Alma’s Expeditions. Designed and Developed by <a
+                                            href="https://thecodeframe. com"><img style="max-width: 200px;"
+                                                                                  src="assets/images/Logo-final.png" alt=""></a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </footer>
+            <!-- End of Footer area -->
+        </div>
+        <!--End of Main Wrapper Area-->
+
+
+
+
+        <!-- right-sidebar -->
+        <div class="main-sidebar main-sidebar-right" id="main-sidebar">
+            <div class="main-sidebar-wrapper" id="main-sidebar-wrapper">
+                <div class="section">
+                    <div class="side-bar-logo"><a href="index.html"><img src="assets/images/logo/Almas.png" alt="Almas Expedition"></a></div>
+                    <div class="cross-brn"><button class="btn close-btn" onclick="sidebarClose(this)">X</button></div>
+
+                    <!-- content -->
+
+                    <div class="sidecontent">
+                        <h4 >Personalize your travel</h4>
+                        <p>Complete the form and receive a Custom Travel quote</p>
+                        <form action="">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <select class="form-control" name="" id="">
+                                    <option value="">Destination</option>
+                                    <option value="">Argentina</option>
+                                    <option value="">Argentina</option>
+                                    <option value="">Argentina</option>
+                                </select>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="form-group" id="budget">
+                                <select class="form-control" name="">
+                                    <option value="">Budget</option>
+                                    <option value="">Argentina</option>
+                                    <option value="">Argentina</option>
+                                    <option value="">Argentina</option>
+                                </select>
+                                <div class="clearfix"></div>
+                            </div>
+
+                            <div class="form-group" id="msg">
+                                <textarea name="" cols="30" rows="5" class="form-control" placeholder="Message"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button class="bg-color-yellow customize-btn customize-btn-sm btn-block">Sign Up Now</button>
+                            </div>
+
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- right-sidebar -->
+
+
+
+        <!-- jquery latest version
+		========================================================= -->
+        <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+
+        <!-- Bootstrap framework js
+		========================================================= -->
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/popper.js"></script>
+
+        <!-- Owl Carousel js
+        ========================================================= -->
+        <script src="assets/js/owl.carousel.min.js"></script>
+
+        <!-- Jquery nice select js
+        ========================================================= -->
+        <script src="assets/js/jquery.nice-select.min.js"></script>
+
+        <!-- nivo slider js
+		========================================================= -->
+        <script src="assets/lib/nivo-slider/js/jquery.nivo.slider.js"></script>
+        <script src="assets/lib/nivo-slider/home.js"></script>
+
+        <!-- Js plugins included in this file
+		========================================================= -->
+        <script src="assets/js/plugins.js"></script>
+
+        <!-- Video Player JS
+        ========================================================= -->
+        <script src="assets/js/jquery.mb.YTPlayer.js"></script>
+
+        <!-- AJax Mail JS
+        ========================================================= -->
+        <script src="assets/js/ajax-mail.js"></script>
+
+        <!-- Mail Chimp JS
+        ========================================================= -->
+        <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+
+        <!-- Waypoint Js
+		========================================================= -->
+        <script src="assets/js/waypoints.min.js"></script>
+
+        <!-- Main js file contents all jQuery plugins activation
+		========================================================= -->
+        <script src="assets/js/main.js"></script>
+
+        <!-- FAQ -->
+
+        <!-- sidebar open -->
+        <script src="assets/js/jquery-ui.min.js"></script>
+        <script src="assets/js/jquery.simpler-sidebar.min.js"></script>
+        <script>
+
+            $( "#main-sidebar" ).simplerSidebar( {
+                selectors: {
+                    trigger: "#toggle-sidebar",
+                },
+                animation: {
+                    easing: "easeOutQuint"
+                }
+            } );
+
+
+            function sidebarOpen(e){
+                $("#main-sidebar").removeClass("sideBarOpenClass");
+                $("#main-sidebar").addClass("anim");
+
+            }
+            function sidebarClose(e){
+
+                $("#main-sidebar").attr("data-simplersidebar", "closed");
+                $("#main-sidebar").addClass("sideBarOpenClass");
+
+
+
+            }
+
+        </script>
+        <script>
+            $(document).ready(function(){
+                // Add minus icon for collapse element which is open by default
+                $(".collapse.show").each(function(){
+                    $(this).prev(".card-header").find(".fa").addClass("fa-minus").removeClass("fa-plus");
+                });
+
+                // Toggle plus minus icon on show hide of collapse element
+                $(".collapse").on('show.bs.collapse', function(){
+                    $(this).prev(".card-header").find(".fa").removeClass("fa-plus").addClass("fa-minus");
+                }).on('hide.bs.collapse', function(){
+                    $(this).prev(".card-header").find(".fa").removeClass("fa-minus").addClass("fa-plus");
+                });
+            });
+        </script>
+
+    </body>
+</html>
