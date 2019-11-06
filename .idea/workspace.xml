@@ -3,11 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="30b0585d-86d9-4a12-8a88-9854be1292f7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all-trips.html" beforeDir="false" afterPath="$PROJECT_DIR$/all-trips.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/slider/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/slider/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/jquery.simpler-sidebar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/jquery.simpler-sidebar.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/shortcode/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/shortcode/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/sticky.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/sticksy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact-info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/destinations-mexico.html" beforeDir="false" afterPath="$PROJECT_DIR$/destinations-mexico.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/destinations.html" beforeDir="false" afterPath="$PROJECT_DIR$/destinations.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/family-fun.html" beforeDir="false" afterPath="$PROJECT_DIR$/family-fun.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/single-page.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +67,8 @@
       <updated>1572769641917</updated>
       <workItem from="1572769675786" duration="6000" />
       <workItem from="1572840146887" duration="5342000" />
-      <workItem from="1572856129001" duration="47082000" />
+      <workItem from="1572856129001" duration="48805000" />
+      <workItem from="1573016572469" duration="21313000" />
     </task>
     <servers />
   </component>

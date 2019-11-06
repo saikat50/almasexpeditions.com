@@ -2,217 +2,133 @@
 <html class="no-js" lang="en">
 
 <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Almas Expeditions</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Almas Expeditions</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-         <link rel="stylesheet" href="assets/fonts/css/all.css">
-        <!-- Google Fonts
-        ============================================ -->		
-        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet"> 
-        
-        <!-- All css files are included here
-        ============================================ -->    
-        <!-- Bootstrap CSS
-        ============================================ -->		
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        
-        <!-- This core.css file contents all plugins css file
-        ============================================ -->
-        <!-- Nice select css
-        ============================================ -->
-        <link rel="stylesheet" href="assets/css/nice-select.css">
-        <!-- This core.css file contents all plugins css file
-        ============================================ -->
-        <link rel="stylesheet" href="assets/css/core.css">
-        
-        <!-- Theme shortcodes/elements style
-        ============================================ -->  
-        <link rel="stylesheet" href="assets/css/shortcode/shortcodes.css">
-        
-        <!--  Theme main style
-        ============================================ -->  
-        <link rel="stylesheet" href="assets/style.css">
-        
-		<!-- Color CSS
-		============================================ -->
-        <link rel="stylesheet" href="assets/css/plugins/color.css">
-        
-        <!-- Responsive CSS
-        ============================================ -->
-        <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/fonts/css/all.css">
+    <!-- Google Fonts
+    ============================================ -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+    <!-- All css files are included here
+    ============================================ -->
+    <!-- Bootstrap CSS
+    ============================================ -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- This core.css file contents all plugins css file
+    ============================================ -->
+    <!-- Nice select css
+    ============================================ -->
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <!-- This core.css file contents all plugins css file
+    ============================================ -->
+    <link rel="stylesheet" href="assets/css/core.css">
+
+    <!-- Theme shortcodes/elements style
+    ============================================ -->
+    <link rel="stylesheet" href="assets/css/shortcode/shortcodes.css">
+
+    <!--  Theme main style
+    ============================================ -->
+    <link rel="stylesheet" href="assets/style.css">
+
+    <!-- Color CSS
+    ============================================ -->
+    <link rel="stylesheet" href="assets/css/plugins/color.css">
+
+    <!-- Responsive CSS
+    ============================================ -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
 
     <!-- custom /cscss -->
     <link rel="stylesheet" href="assets/css/custom.css">
-       <link rel="stylesheet" href="assets/css/sidebar.css">
-        
-        <!-- Modernizr JS -->
-        <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
-    <!-- slider -->
-    <script src="assets/js/jssor.slider-28.0.0.min.js" type="text/javascript"></script>
-    <script type="text/javascript">
-        window.jssor_1_slider_init = function() {
+    <link rel="stylesheet" href="assets/css/sidebar.css">
 
-            var jssor_1_options = {
-                $AutoPlay: 1,
-                $BulletNavigatorOptions: {
-                    $Class: $JssorBulletNavigator$
-                }
-            };
+    <!-- Modernizr JS -->
+    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+<body>
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
 
-            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+<!--Main Wrapper Start-->
+<div class="as-mainwrapper">
+    <!--Header Area Start-->
+    <header id="sticky-header" class="header-area">
+        <!-- Header Top Start -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-lg-3">
+                    <div class="logo"><a href="index.html"><img src="assets/images/logo/Almas.png" alt="Almas Expedition"></a></div>
+                </div>
+                <div class="col-sm-6 col-lg-9">
+                    <nav id="primary-menu">
+                        <ul class="main-menu text-right">
+                            <li><a href="index.html">All trips</a></li>
+                            <li><a href="">Travel styles <i class="fal fa-chevron-down"></i></a>
+                                <ul class="dropdown">
+                                    <li><a href="">Family fun</a></li>
+                                    <li><a href="">Adventure</a></li>
+                                    <li><a href="">Cultural</a></li>
+                                    <li><a href="">Holiday & Seasonal</a></li>
+                                    <li><a href="">Book of Mormon Tours</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Destinations</a></li>
+                            <li><a href="">About US</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Contact us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
 
-            /*#region responsive code begin*/
+        <button class="sidebarBtn sidebar-desk toggle-sidebar">
+            <span>CUSTOMIZE IT</span><i class="fas fa-bars"></i>
+        </button>
 
-            var MAX_WIDTH = 770;
-
-            function ScaleSlider() {
-                var containerElement = jssor_1_slider.$Elmt.parentNode;
-                var containerWidth = containerElement.clientWidth;
-
-                if (containerWidth) {
-
-                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
-
-                    jssor_1_slider.$ScaleWidth(expectedWidth);
-                }
-                else {
-                    window.setTimeout(ScaleSlider, 30);
-                }
-            }
-
-            ScaleSlider();
-
-            $Jssor$.$AddEvent(window, "load", ScaleSlider);
-            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
-            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
-            /*#endregion responsive code end*/
-        };
-    </script>
-    <!-- Sticky js -->
-
-    <style>
-        /*jssor slider loading skin double-tail-spin css*/
-        .jssorl-004-double-tail-spin img {
-            animation-name: jssorl-004-double-tail-spin;
-            animation-duration: 1.6s;
-            animation-iteration-count: infinite;
-            animation-timing-function: linear;
-        }
-
-        @keyframes jssorl-004-double-tail-spin {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(360deg); }
-        }
-
-        /*jssor slider bullet skin 031 css*/
-        .jssorb031 {position:absolute;}
-        .jssorb031 .i {position:absolute;cursor:pointer;}
-        .jssorb031 .i .b {fill:#000;fill-opacity:0.5;stroke:#fff;stroke-width:1200;stroke-miterlimit:10;stroke-opacity:0.3;}
-        .jssorb031 .i:hover .b {fill:#fff;fill-opacity:.7;stroke:#000;stroke-opacity:.5;}
-        .jssorb031 .iav .b {fill:#fff;stroke:#000;fill-opacity:1;}
-        .jssorb031 .i.idn {opacity:.3;}
-    </style>
-    </head>
-    <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->  
-
-        <!--Main Wrapper Start-->
-        <div class="as-mainwrapper">
-            <!--Header Area Start-->
-            <header id="sticky-header" class="header-area">
-                <!-- Header Top Start -->
+        <!-- Mobile Menu Area start -->
+        <div class="mobile-menu-area">
+            <div class="right-btn">
+                <button class="mob-cus-btn btn toggle-sidebar"><span>CUSTOMIZE IT</span><i class="fas fa-bars"></i></button>
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-6 col-lg-3">
-                            <div class="logo"><a href="index.html"><img src="assets/images/logo/Almas.png" alt="Almas Expedition"></a></div>
-                        </div>
-                        <div class="col-sm-6 col-lg-9">
-                            <div class="pull-left header-menu">
-                                <nav id="primary-menu">
-                                    <ul class="main-menu text-right">
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <div class="mobile-menu">
+                                <nav id="dropdown">
+                                    <ul>
                                         <li><a href="index.html">All trips</a></li>
-                                        <li><a href="job-board.html">Travel styles <i class="fal fa-chevron-down"></i></a>
-                                            <ul class="dropdown">
-                                                <li><a href="single-job-post.html">Family fun</a></li>
-                                                <li><a href="job-details.html">Adventure</a></li>
-                                                <li><a href="job-details.html">Cultural</a></li>
-                                                <li><a href="job-details.html">Holiday & Seasonal</a></li>
-                                                <li><a href="job-details.html">Book of Mormon Tours</a></li>
+                                        <li><a href="">Travel styles</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="">Family fun</a></li>
+                                                <li><a href="">Adventure</a></li>
+                                                <li><a href="">Cultural</a></li>
+                                                <li><a href="">Holiday & Seasonal</a></li>
+                                                <li><a href="">Book of Mormon Tours</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="">Destinations</a></li>
-                                        <li><a href="about.html">About US</a></li>
-                                        <li><a href="blog.html">Blog</a></li>
-                                        <li><a href="contact.html">Contact us</a></li>
-                                
+                                        <li><a href="">About US</a></li>
+                                        <li><a href="">Blog</a></li>
+                                        <li><a href="">Contact us</a></li>
                                     </ul>
                                 </nav>
-                                <div class="login-btn">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <button class="sidebarBtn" id="toggle-sidebar" onclick="sidebarOpen(this)">
-                    <span>CUSTOMIZE IT</span><i class="fas fa-bars"></i>
-                </button>
-                
-                <!-- Mobile Menu Area start -->
-                <div class="mobile-menu-area">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12 col-md-12 col-sm-12">
-                                <div class="mobile-menu">
-                                    <nav id="dropdown">
-                                        <ul>
-                                            <li><a href="index.html">HOME</a>
-                                                <ul>
-													<li><a href="index.html">Home Version One</a></li>
-                                                    <li><a href="index-2.html">Home Version Two</a></li>
-                                                    <li><a href="index-3.html">Home Box Layout</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="job-board.html">Job</a>
-                                                <ul class="sub-menu">
-													<li><a href="single-job-post.html">Single Job</a></li>
-													<li><a href="job-details.html">Job Details</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="about.html">About</a></li>
-                                            <li><a href="#">Page</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="job-board.html">Job Board</a></li>
-                                                    <li><a href="single-job-post.html">Single Job</a></li>
-                                                    <li><a href="job-details.html">Job Details</a></li>
-                                                    <li><a href="candidates.html">Candidates</a></li>
-                                                    <li><a href="resume.html">Resume</a></li>
-                                                    <li><a href="blog.html">Blog Page</a></li>
-                                                    <li><a href="blog-details.html">Blog Details</a></li>
-                                                    <li><a href="contact.html">Contact</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="blog.html">Blog</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="blog-details.html">Blog Details</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Mobile Menu Area end -->  
-            </header>
+
+        </div>
+        <!-- Mobile Menu Area end -->
+    </header>
             <!-- End of Header Area -->
             <!-- Search Form Start -->
             <div class="banner-text-area-single-page bg-5 bg-black-transparent-layer" style="background-image: url(assets/images/guatemala-4532780_1920.jpg);">
@@ -231,15 +147,86 @@
 
 
             <section class="tour-details p-5 pl-0 pr-0">
+
+
+                <!-- ##################### ONLY DISPLAY FOR MOBILE VERSION ######################### -->
+
+                <div class="col-md-4 relative-sidebar mob-display">
+                    <div class="position-sidebar">
+                        <div id="mob-side-bar-2">
+                            <div class="sidebar__inner">
+                                <div class="clearfix"></div>
+                                <div class="sidebar-inner-content">
+                                    <div class="clearfix"></div>
+                                    <p class="roboto-black color-head-balck">Price</p>
+                                    <p class="tag-price"><i class="far fa-tag"></i><span class="s-text">From</span><span class="price-one roboto-black color-head-balck">$1,899</span></p>
+                                    <p class="book-availability color-gray">Click to see pricing and availability</p>
+                                    <button type="button" class="btn bg-color-yellow btn-block mt-15"><a href="" class="btn-block color-head-balck book-btn">BOOK NOW</a></button>
+                                    <p class="booking-note book-availability color-gray mt-60">The initial price based on 1 adult with
+                                        the lowest price in low season</p>
+                                </div>
+
+
+                                <div id="sidebar-3" class="mt-70">
+                                    <div class="tourmaster-tour-booking-bar-widget  traveltour-sidebar-area"><div id="text-11" class="widget widget_text traveltour-widget">			<div class="textwidget"><span class="gdlr-core-space-shortcode" style="margin-top: -20px ;"></span>
+                                        <div class="gdlr-core-widget-list-shortcode" id="gdlr-core-widget-list-0"><h3 class="gdlr-core-widget-list-shortcode-title">Why Book With Us?</h3>
+                                            <ul>
+                                                <li><i class="fa fa-dollar" style="font-size: 15px ;color: #ffa127 ;margin-right: 13px ;"></i>Book online hassle-free</li>
+                                                <li><i class="fa fa-headphones" style="font-size: 15px ;color: #ffa127 ;margin-right: 10px ;"></i>Customer service available 24/7</li>
+                                                <li><i class="fa fa-star" style="font-size: 15px ;color: #ffa127 ;margin-right: 10px ;"></i>Hand-picked Tours &amp; Activities</li>
+                                                <li><i class="fa fa-support" style="font-size: 15px ;color: #ffa127 ;margin-right: 10px ;"></i>Best price online guaranteed</li>
+                                            </ul>
+                                        </div></div>
+                                    </div>
+                                    </div>
+                                </div>
+
+                                <div id="sidebar-4">
+                                    <h4 class="destination-contact-h color-head-balck">TALK WITH A DESTINATION EXPERT</h4>
+                                    <h5>We tailor itineraries to your dates and interests, adjusting hotels, excursions and length as desired.
+                                    </h5>
+                                    <div class="contact-by-voice">
+                                        <ul>
+                                            <li>
+                                                <p class="rotate-3"><i class="fas fa-phone-alt"></i></p>
+                                                <p class="icon-text">Call</p>
+                                            </li>
+                                            <li>
+                                                <p><i class="fas fa-envelope"></i></p>
+                                                <p class="icon-text">Email</p>
+                                            </li>
+                                            <li>
+                                                <p><i class="fas fa-comment-lines"></i></p>
+                                                <p class="icon-text">Chat</p>
+                                            </li>
+                                        </ul>
+                                        <div class="clearfix"></div>
+
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+                <!-- ##################### ENDED ONLY DISPLAY FOR MOBILE VERSION ######################### -->
+
+
+
                 <div class="tour-menu">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12 col-sm-12 col-lg-12">
                                 <ul class="tour-menu">
-                                    <li><a href="">Overview</a></li>
-                                    <li><a href="">Photos</a></li>
-                                    <li><a href="">Itinerary</a></li>
-                                    <li><a href="">Map</a></li>
+                                    <li><a class="scroll" href="#section1" data-offset="170">Overview</a></li>
+                                    <li><a class="scroll" href="#section2" data-offset="170">Photos</a></li>
+                                    <li><a class="scroll" href="#section3" data-offset="170">Itinerary</a></li>
+                                    <li><a class="scroll" href="#section4" data-offset="170">Map</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -262,7 +249,7 @@
                                     <div class="clearfix"></div>
                                 </div>
 
-                                <div class="tour-overview">
+                                <div class="tour-overview" id="section1">
                                     <h3 class="tour-head color-head-balck mt-30">Tour Overview</h3>
                                     <p class="tour-regular color-gray mt-15">Experience Guatemala and enjoy the top destinations for international visitors! Enjoy 2 nights at Lake Atitlan and visit the surrounding villages of Santiago, San Juan, and San Pedro. Enjoy a horseback riding tour up to the viewpoint a get a tremendous view of the volcanoes and of the entire crater.
                                         <br> <br>
@@ -494,7 +481,7 @@
                                 <div class="clearfix"></div>
 
                                 <!--######################## Itinerary ###########################-->
-                                <div class="expectations itinerary">
+                                <div class="expectations itinerary" id="section3">
                                     <ul>
                                         <li><i class="far fa-bus"></i></li>
                                         <li><h4 class="menu-des-head">Itinerary</h4>
@@ -593,7 +580,7 @@
 
                                 <div class="clearfix"></div>
                                 <!--######################## Photos ###########################-->
-                                <div class="expectations Photos mt-30">
+                                <div class="expectations Photos mt-30" id="section2">
                                     <ul>
                                         <li><i class="far fa-images"></i></li>
                                         <li><h4 class="menu-des-head">Photos</h4></li>
@@ -636,7 +623,7 @@
 
                                 <div class="row"></div>
                                 <!--######################## MAP ###########################-->
-                                <div class="expectations Photos mt-40">
+                                <div class="expectations Photos mt-40" id="section4">
                                     <ul>
                                         <li><i class="far fa-map"></i></li>
                                         <li><h4 class="menu-des-head">Map</h4></li>
@@ -648,11 +635,75 @@
                                 </div>
 
                             </div>
+
+                            <div class="col-md-4 relative-sidebar desk-display">
+                                <div class="position-sidebar">
+                                    <div id="sidebar-2">
+                                        <div class="sidebar__inner">
+                                            <div class="clearfix"></div>
+                                            <div class="sidebar-inner-content">
+                                                <div class="clearfix"></div>
+                                                <p class="roboto-black color-head-balck">Price</p>
+                                                <p class="tag-price"><i class="far fa-tag"></i><span class="s-text">From</span><span class="price-one roboto-black color-head-balck">$1,899</span></p>
+                                                <p class="book-availability color-gray">Click to see pricing and availability</p>
+                                                <button type="button" class="btn bg-color-yellow btn-block mt-15"><a href="" class="btn-block color-head-balck book-btn">BOOK NOW</a></button>
+                                                <p class="booking-note book-availability color-gray mt-60">The initial price based on 1 adult with
+                                                    the lowest price in low season</p>
+                                            </div>
+
+
+                                            <div id="sidebar-3" class="mt-70">
+                                                <div class="tourmaster-tour-booking-bar-widget  traveltour-sidebar-area"><div id="text-11" class="widget widget_text traveltour-widget">			<div class="textwidget"><span class="gdlr-core-space-shortcode" style="margin-top: -20px ;"></span>
+                                                    <div class="gdlr-core-widget-list-shortcode" id="gdlr-core-widget-list-0"><h3 class="gdlr-core-widget-list-shortcode-title">Why Book With Us?</h3>
+                                                        <ul>
+                                                            <li><i class="fa fa-dollar" style="font-size: 15px ;color: #ffa127 ;margin-right: 13px ;"></i>Book online hassle-free</li>
+                                                            <li><i class="fa fa-headphones" style="font-size: 15px ;color: #ffa127 ;margin-right: 10px ;"></i>Customer service available 24/7</li>
+                                                            <li><i class="fa fa-star" style="font-size: 15px ;color: #ffa127 ;margin-right: 10px ;"></i>Hand-picked Tours &amp; Activities</li>
+                                                            <li><i class="fa fa-support" style="font-size: 15px ;color: #ffa127 ;margin-right: 10px ;"></i>Best price online guaranteed</li>
+                                                        </ul>
+                                                    </div></div>
+                                                </div>
+                                                </div>
+                                            </div>
+
+                                            <div id="sidebar-4">
+                                                <h4 class="destination-contact-h color-head-balck">TALK WITH A DESTINATION EXPERT</h4>
+                                                <h5>We tailor itineraries to your dates and interests, adjusting hotels, excursions and length as desired.
+                                                </h5>
+                                                <div class="contact-by-voice">
+                                                    <ul>
+                                                        <li>
+                                                            <p class="rotate-3"><i class="fas fa-phone-alt"></i></p>
+                                                            <p class="icon-text">Call</p>
+                                                        </li>
+                                                        <li>
+                                                            <p><i class="fas fa-envelope"></i></p>
+                                                            <p class="icon-text">Email</p>
+                                                        </li>
+                                                        <li>
+                                                            <p><i class="fas fa-comment-lines"></i></p>
+                                                            <p class="icon-text">Chat</p>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="clearfix"></div>
+
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                            </div>
+
                         </div>
                     </div>
                 </div>
-
+                </div>
             </section>
+
+
 
 
             <div class="footer p-5 bg-black pl-0 pr-0">
@@ -838,27 +889,12 @@
 
             $( "#main-sidebar" ).simplerSidebar( {
                 selectors: {
-                    trigger: "#toggle-sidebar",
+                    trigger: ".toggle-sidebar",
                 },
                 animation: {
                     easing: "easeOutQuint"
                 }
             } );
-
-
-            function sidebarOpen(e){
-                $("#main-sidebar").removeClass("sideBarOpenClass");
-                $("#main-sidebar").addClass("anim");
-
-            }
-            function sidebarClose(e){
-
-                $("#main-sidebar").attr("data-simplersidebar", "closed");
-                $("#main-sidebar").addClass("sideBarOpenClass");
-
-
-
-            }
 
         </script>
         <script>
@@ -876,6 +912,34 @@
                 });
             });
         </script>
+        <script type="text/javascript" src="assets/js/sticky-sidebar.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('#sidebar-2').stickySidebar({
+                    containerSelector: '.container',
+                    innerWrapperClass: 'sidebar__inner',
+                    topSpacing: 80,
+                    bottomSpacing: 0,
+                    resizeSensor:true
 
+                });
+
+            });
+        </script>
+        <script>
+            $(document).ready(function(){
+                $('.scroll').on('click',function(e) {
+                    e.preventDefault();
+                    var offset = 0;
+                    var target = this.hash;
+                    if ($(this).data('offset') != undefined) offset = $(this).data('offset');
+                    $('html, body').stop().animate({
+                        'scrollTop': $(target).offset().top - offset
+                    }, 500, 'swing', function() {
+                        // window.location.hash = target;
+                    });
+                });
+            });
+        </script>
     </body>
 </html>

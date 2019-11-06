@@ -36,6 +36,10 @@
     font-family: 'Blacksword';
     src: url('../../fonts/Blacksword.otf');
 }
+@font-face{
+    font-family: 'Roboto-black';
+    src: url('../../fonts/Roboto/Roboto-Black.ttf');
+}
 
 
 /*header top*/
@@ -138,7 +142,7 @@ nav#primary-menu {display: inline-block; float: left;}
     padding: 16px 0;
     position: absolute;
     text-align: left;
-    top: 100%;
+    top: 122%;
     -webkit-transform: scaleY(0);
             transform: scaleY(0);
     -webkit-transform-origin: 0 0 0;
@@ -304,4 +308,8 @@ ul.dropdown > li:hover > ul.inside-menu {
 }
 .mean-container .mean-nav ul li a:hover,.mean-container .mean-nav ul li:hover > a{
   color: #26ae61;
+}
+
+.dropdown li:first-child{
+    margin-top: 0;
 }

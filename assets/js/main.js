@@ -35,6 +35,12 @@ Design and Developed by: Devitems
     $(window).scroll(function() {
         if ($(this).scrollTop() > 1){
             $('#sticky-header').addClass("sticky");
+
+            if($(this).scrollTop() > 132){
+                $('.mobile-menu-area').addClass("sticky");
+            }else{
+                $('.mobile-menu-area').removeClass("sticky");
+            }
         }
         else{
             $('#sticky-header').removeClass("sticky");
