@@ -44,6 +44,9 @@
         ============================================ -->
         <link rel="stylesheet" href="assets/css/responsive.css">
 
+        <!-- video -->
+    <link rel="stylesheet" href="assets/css/plugins/jquery.mb.YTPlayer.css">
+
     <!-- custom /cscss -->
     <link rel="stylesheet" href="assets/css/custom.css">
        <link rel="stylesheet" href="assets/css/sidebar.css">
@@ -131,57 +134,20 @@
             </header>
             <!-- End of Header Area -->
             <!-- Search Form Start -->
-            <div class="search-job-area bg-5">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-10 col-lg-12 ml-auto mr-auto">
-                            <div class="job-search-content text-center">
-                                <h4>One million success stories</h4>
-                                <h2>find job our website</h2>
-                                <form action="#" method="post">
-                                    <div class="form-container">
-                                        <div class="box-select">
-                                            <div class="select">
-                                                <select name="category">
-                                                    <option>Keywords</option>
-                                                    <option>Finance</option>
-                                                    <option>Accountant</option>
-                                                    <option>Enginner</option>
-                                                    <option>Programmer</option>
-                                                    <option>Developer</option>
-                                                </select>
-                                            </div>
-                                            <div class="select">
-                                                <select name="date">
-                                                    <option>All Regions</option>
-                                                    <option>Dhaka</option>
-                                                    <option>Shylet</option>
-                                                    <option>Khulna</option>
-                                                    <option>Barishal</option>
-                                                    <option>Chittagong</option>
-                                                </select>
-                                            </div>
-                                            <div class="select">
-                                                <select name="date">
-                                                    <option>Category</option>
-                                                    <option>Web Design</option>
-                                                    <option>Designing</option>
-                                                    <option>Development</option>
-                                                    <option>Programming</option>
-                                                    <option>Developing</option>
-                                                </select>
-                                            </div>
-                                            <div class="select">
-                                                <button type="button">Search</button>
-                                            </div>
-                                        </div>
+            <div class="banner">
 
-                                    </div>
-                                </form>
-                            </div>
+                <div class="video-container">
+                    <div class="color-overlay">
+                        <div class="explore-img">
+                            <img class="img-fluid" src="assets/images/explore-outline-3.png" alt="">
                         </div>
+                        <h3 class="text-explore">IT’S TIME TO</h3>
                     </div>
+                    <video controls poster="assets/images/default-banner.jpg" autoplay loop muted>
+                        <source src="assets/video/video.mp4" type="video/mp4">
+                    </video>
                 </div>
+
             </div>
             <!-- Search Form End -->
 
@@ -473,7 +439,7 @@
                             <div class="row">
                                 <div class="col-md-4 col-sm-4 col-lg-4">
                                     <div class="img-container">
-                                        <img src="assets/images/place.jpg" alt="">
+                                        <img src="assets/images/post.jpg" alt="">
                                         <div class="step-img">
                                             <p>1</p>
                                         </div>
@@ -485,7 +451,7 @@
                                 </div>
                                 <div class="col-md-4 col-sm-4 col-lg-4 pt-60">
                                     <div class="img-container img-container-m">
-                                        <img src="assets/images/place.jpg" alt="">
+                                        <img src="assets/images/Group%20124.jpg" alt="">
                                         <div class="step-img">
                                             <p>2</p>
                                         </div>
@@ -497,7 +463,7 @@
                                 </div>
                                 <div class="col-md-4 col-sm-4 col-lg-4 mob-pt-20">
                                     <div class="img-container img-container-l">
-                                        <img src="assets/images/place.jpg" alt="">
+                                        <img src="assets/images/Mask%20Group%204.jpg" alt="">
                                         <div class="step-img">
                                             <p>3</p>
                                         </div>
@@ -783,6 +749,9 @@
         <!-- Main js file contents all jQuery plugins activation
 		========================================================= -->		
         <script src="assets/js/main.js"></script>
+
+        <!-- video -->
+        <script src="assets/js/jquery.mb.YTPlayer.js"></script>
         
         <!-- sidebar open -->
         <script src="assets/js/jquery-ui.min.js"></script>
@@ -801,7 +770,9 @@
               } );
           });
 
-           
+          jQuery(function(){
+              jQuery("#bgndVideo").YTPlayer();
+          });
 
     </script>
         

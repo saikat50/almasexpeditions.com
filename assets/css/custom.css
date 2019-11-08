@@ -124,13 +124,14 @@
 }
 .img-text-holder{
     position: relative;
+    width: 100%;
 }
 .img-text{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background: rgba(0,0,0,.4);
+    /*background: rgba(0,0,0,.4);*/
     width: 100%;
     height: 100%;
 }
@@ -204,9 +205,9 @@
     border-radius: 50%;
 }
 .step-img p{
-    font-size: 217px;
+    font-size: 146px;
     color: #fff;
-    font-family: 'Roboto-cn-l';
+    font-family: 'Blacksword';
     position: absolute;
     top: 50%;
     left: 50%;
@@ -743,7 +744,6 @@ div[data-simplersidebar="mask"]{
 .tour-details .tour-menu li{
     list-style: none;
     float: left;
-    padding: 10px 25px;
     margin: 0;
 }
 .tour-details .tour-menu li:hover{
@@ -753,6 +753,7 @@ div[data-simplersidebar="mask"]{
     font-family: 'Roboto-r';
     font-size: 30px;
     color: #707070;
+    padding: 10px 25px;
 }
 
 .tour-menu{
@@ -1164,6 +1165,91 @@ div[data-simplersidebar="mask"]{
 }
 
 
+/*******************************video player css********************************/
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.banner h1 {
+    text-align: center;
+    font-size: 6rem;
+    font-family: "Roboto-cn-r";
+    padding: 20px;
+    margin: 15px;
+    z-index: 1;
+    color: #fff;
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.color-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.5);
+    width: 100%;
+    height: 100vh;
+}
+
+/*place card*/
+
+.img-text-holder:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    display: block;
+    content: '';
+    background: rgba(0,0,0,.4);
+    transition: all linear 0.3s;
+}
+.img-text:before{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    display: block;
+    content: '';
+    background: rgba(0,0,0,.4);
+    transition: all linear 0.3s;
+}
+
+.place-card:hover .img-text-holder:before, .place-card:hover .img-text:before{
+    width: 0;
+}
+
+.explore-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 75%;
+}
+.text-explore{
+    font-family: 'Roboto-b';
+    font-size: 96px;
+    color: #FED61F;
+    position: absolute;
+    top: 55%;
+    left: 62%;
+    transform: translate(-13%,-50%);
+    width: 100%;
+}
+
+
 @media(max-width: 767px){
     .find-tours h2 {
         font-size: 26px;
@@ -1448,6 +1534,79 @@ div[data-simplersidebar="mask"]{
     }
     .expeditions{
         padding-top: 30px!important;
+    }
+    .roboto-black {
+        font-size: 25px;
+    }
+    .tag-price i {
+        font-size: 22px;
+    }
+    .tag-price .s-text {
+        font-size: 16px;
+        margin-left: 19px;
+    }
+    .tag-price .price-one {
+        font-size: 32px;
+        margin-left: 40px;
+    }
+    .book-availability {
+        font-size: 16px;
+    }
+    .book-btn {
+        font-size: 16px;
+    }
+    .booking-note {
+        font-size: 13px;
+    }
+    .destination-contact-h {
+        font-size: 18px;
+    }
+    .contact-by-voice i {
+        font-size: 22px;
+    }
+    .contact-by-voice ul li .icon-text {
+        font-size: 16px;
+    }
+    .contact-by-voice ul {
+        max-width: 217px;
+        margin: 0 auto;
+    }
+    .tour-regular {
+        font-size: 18px;
+    }
+    .features-details .bold-text {
+        font-size: 16px;
+    }
+    .banner h1 {
+        text-align: center;
+        font-size: 4rem;
+        font-family: "Roboto-cn-r";
+        padding: 20px;
+        margin: 15px;
+        z-index: 1;
+        color: #fff;
+    }
+    .banner {
+        position: relative;
+        width: 100%;
+        height: 35vh;
+    }
+    .explore-img {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%,-80%);
+        width: 75%;
+    }
+    .text-explore {
+        font-family: 'Roboto-b';
+        font-size: 26px;
+        color: #FED61F;
+        position: absolute;
+        top: 18%;
+        left: 62%;
+        transform: translate(-13%,-50%);
+        width: 100%;
     }
 
 }

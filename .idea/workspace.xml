@@ -3,18 +3,54 @@
   <component name="ChangeListManager">
     <list default="true" id="30b0585d-86d9-4a12-8a88-9854be1292f7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/all-trips.html" beforeDir="false" afterPath="$PROJECT_DIR$/all-trips.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/shortcode/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/shortcode/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/sticky.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/sticksy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/destinations-mexico.html" beforeDir="false" afterPath="$PROJECT_DIR$/destinations-mexico.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/destinations.html" beforeDir="false" afterPath="$PROJECT_DIR$/destinations.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/family-fun.html" beforeDir="false" afterPath="$PROJECT_DIR$/family-fun.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg/about.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg/footer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg/login.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg/pattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/candidates/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/candidates/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/candidates/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/candidates/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/candidates/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/candidates/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/candidates/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/candidates/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/comment/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/comment/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/comment/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/company-logo/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/icons/cat1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/icons/cat2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/icons/cat3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/icons/cat4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/icons/h2c1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/icons/h2c2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/icons/h2c3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/icons/h2c4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/icons/h2c5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/icons/h2c6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/icons/work-shap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/icons/wrk1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/icons/wrk2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/icons/wrk3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/pattern/pattern-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/team/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/team/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/team/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/team/4.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/single-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/single-page.html" afterDir="false" />
     </list>
@@ -68,7 +104,10 @@
       <workItem from="1572769675786" duration="6000" />
       <workItem from="1572840146887" duration="5342000" />
       <workItem from="1572856129001" duration="48805000" />
-      <workItem from="1573016572469" duration="21313000" />
+      <workItem from="1573016572469" duration="23663000" />
+      <workItem from="1573050716150" duration="4609000" />
+      <workItem from="1573055691991" duration="1552000" />
+      <workItem from="1573221114464" duration="4357000" />
     </task>
     <servers />
   </component>
